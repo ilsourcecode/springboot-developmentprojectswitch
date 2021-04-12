@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: myprod
+  #激活配置文件application-prod.yaml文件
+    #active: prod
+    group:
+      myprod:
+        - prod
+        - pdd
+      mytest:
+        - test
+
+
+
+person:
+  name: 1111
+  age: 1111
